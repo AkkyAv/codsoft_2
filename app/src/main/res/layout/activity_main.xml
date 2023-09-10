@@ -7,13 +7,14 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_marginLeft="15dp"
         android:id="@+id/quoteTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Random Quote Will Appear Here"
         android:layout_centerInParent="true"
-        android:textStyle="bold"
-        android:textSize="18sp" />
+        android:text="Random Quote Will Appear Here"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/saveButton"

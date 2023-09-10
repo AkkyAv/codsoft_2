@@ -92,13 +92,11 @@ public class MainActivity extends AppCompatActivity {
         editor.putString(key, currentQuote);
         editor.apply();
 
-        // Provide feedback to the user
-        // You can show a Toast or update a TextView to indicate success
-        // For simplicity, we'll show a Toast here
+
         Toast.makeText(this, "Quote saved!", Toast.LENGTH_SHORT).show();
     }
     private void shareCurrentQuote() {
-        // Implement the code to share the current quote
+
         String quoteToShare = quoteTextView.getText().toString();
 
         Intent shareIntent = new Intent(Intent.ACTION_SEND);
